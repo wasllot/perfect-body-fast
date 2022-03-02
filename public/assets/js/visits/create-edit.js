@@ -1,0 +1,1 @@
+(()=>{"use strict";$(document).ready((function(){$("#date").flatpickr({disableMobile:!0}),$("#editDate").flatpickr({disableMobile:!0})})),$(document).on("submit","#saveForm",(function(t){t.preventDefault(),$("#btnSubmit").attr("disabled",!0),$("#saveForm")[0].submit()}))})();
